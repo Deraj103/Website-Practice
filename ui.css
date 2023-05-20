@@ -1,0 +1,49 @@
+body {
+    background: rgb(223, 255, 229);
+    font-size: 1.25em;
+    width: 80%;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    color:#007213;
+    padding: 20px;
+}
+h3 {
+    color:#007213;
+}
+img{
+    padding: 6px;
+    float: left;
+    width: 20%;
+}
+.tabs > ul {
+    padding: 0;
+    text-align: center;
+}
+.tabs .ul .li {
+    padding-left: 5px;
+}
+.tabs .trigger {
+    list-style-type: none;
+    background: #b5ffc1;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.tabs .trigger.active {
+    background: #007213;
+    color: white;
+}
+.tabs .content{
+    background: #b5ffc1;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+}
+.tabs .content.active {
+    display: block;
+    text-align: left;
+}
